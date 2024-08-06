@@ -251,7 +251,7 @@ header #headerAvatar {
     border-radius: 300px;
     border: 7.5px solid var(--accent);
     background-color: #313b3d;
-    background-image: url("../images/header/daniel.jpg");
+    background-image: url("./svg/photo_2022-04-25_08-17-06.jpg");
     background-size: 300px 300px;
     background-position: center center;
     background-repeat: no-repeat;
