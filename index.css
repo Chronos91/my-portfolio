@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500&family=Raleway:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,300&display=swap');
+
 
 @font-face {
     font-family: 'TheScientist';
@@ -118,7 +120,7 @@ section {
 }
 
 section h3 {
-    font-family: Raleway;
+    font-family: "Grey Qo", cursive;
     font-size: 3.5em;
     text-align: right;
     letter-spacing: 15px;
@@ -225,6 +227,8 @@ header {
 }
 
 header h2 {
+    font-family: "Grey Qo", cursive;
+    font-weight: 700;
     color: var(--secondary-color);
 }
 
@@ -251,7 +255,7 @@ header #headerAvatar {
     border-radius: 300px;
     border: 7.5px solid var(--accent);
     background-color: #313b3d;
-    background-image: url("./svg/photo_2022-04-25_08-17-06.jpg");
+    background-image: url("./svg/photo_2022-04-25_08-17-05.jpg");
     background-size: 300px 300px;
     background-position: center center;
     background-repeat: no-repeat;
