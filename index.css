@@ -423,6 +423,36 @@ header #headerAvatar {
     flex-wrap: wrap;
 }
 
+#portfolio #projectList .projectPreview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.projectTech img {
+    width: 40px;
+    /* Adjust the size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Space between icons */
+    vertical-align: middle;
+    /* Align images with text */
+}
+
+.projectTech {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allows icons to wrap if they overflow */
+}
+
+.projectTech img:last-child {
+    margin-right: 0;
+    /* Remove margin from the last image */
+}
+
+
 #portfolio .projectItem {
     padding: 15px;
     border-radius: 10px;
